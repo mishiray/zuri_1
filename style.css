@@ -1,0 +1,289 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+    background-color: #fffdf5;
+    margin: auto;
+}
+
+/* Colors */
+/* Bg Colors */
+.bg-red{
+    background-color: #E7332B;
+}
+.bg-black{
+    background-color: #1B1A20;
+}
+.bg-white{
+    background-color: #FFF;
+}
+/* Text Colors */
+.text-white{
+    color: #fff;
+}
+.text-red{
+    color: #E7332B;
+}
+.text-green{
+    color: #46BA81;
+}
+/* Display Types */
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.d-block{
+    width: 100%;
+    display: block;
+}
+
+/* Spacing */
+.p-2{
+    padding: 10px;
+}
+.p-5{
+    padding: 60px;
+}
+.px-2{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.p-0{
+    padding: 0;
+}
+.mt-2{
+    margin-top: 30px;
+}
+.my-2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.m-2{
+    margin: 5px;
+}
+.m-1{
+    margin: 3px;
+}
+.m-0{
+    margin: 0 !important;
+}
+
+/* Text */
+.text-large{
+    font-size: 3em;
+}
+.text-midi{
+    font-size: 2em;
+}
+.text-midi2{
+    font-size: 1.6em;
+}
+
+/* Alignment */
+.text-center{
+    text-align: center;
+}.text-right{
+    text-align: right;
+}
+.justify-content-center{
+    justify-content: center;
+}
+
+/* Border */
+.b-radius-sm{
+    border-radius: 10px;
+}
+.b-radius-lg{
+    border-radius: 20px;
+}
+.b-radius-xl{
+    border-radius: 30px;
+}
+.border{
+    border: solid 2px;
+}
+.border-red{
+    border-color: #E7332B;
+}
+.border-white{
+    border-color: #FFF;
+}
+
+
+/* Tag Queries */
+div{
+    /* padding: 10px; */
+}
+
+section{
+    padding: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.w-90{
+    margin: auto;
+    width: 90%;
+}
+.w-100{
+    width: 100% !important;
+}
+.banner-large-text{
+    font-size: 49px;
+}
+.banner-sub-text{
+    font-size: 16px;
+}
+.lady-1{
+    width: 80%;
+}
+.melface{
+    width: 50px;
+}
+
+.why-head .lead{
+    font-size: 40px;
+    line-height: 52px;
+}
+
+.why-card{
+    box-shadow: 0 11px 22px rgb(231 51 43 / 10%);
+    transition: transform .3s ease-out;
+}
+.why-card:hover{
+    transform: 500ms ease-in-out 25ms;
+}
+
+.why-card .number{
+    font-size: 60px!important;
+    font-style: normal!important;
+    font-weight: 700!important;
+    line-height: 130%!important;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+.why-card .mid{
+    font-size: 36px!important;
+    font-style: normal!important;
+    font-weight: 500!important;
+    line-height: 130%!important;
+    padding-bottom: 36px!important;
+    padding-top: 32px!important;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.why-card .final{
+    font-size: 18px!important;
+    font-style: normal!important;
+    font-weight: 400!important;
+    line-height: 130%!important;
+}
+.why-card-image{
+    position: absolute;
+    /* position it to the right */
+}
+
+/* Media Queries */
+
+/* For Desktop */
+.col-3 {width: 25%;}
+.col-4 {width: 32%;}
+.col-6 {width: 50%;}
+.col-10 {width: 83.33%;}
+.col-12 {width: 100%;}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    [class*="col-"] {
+        width: 100%;
+      }
+      .banner-large-text{
+          font-size: 28px;
+      }
+      section{
+        padding: 5px;
+        margin: 0;
+      }
+      .p-5{
+          padding: 20px;
+      }
+      .why-head .lead{
+        font-size: 30px!important;
+        font-style: normal!important;
+        font-weight: 700!important;
+        line-height: 130%!important;
+      }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .col-3 {width: 50%;}
+    .col-4 {width: 50%;}
+    .col-6 {width: 75%;}
+    .col-10 {width: 100%;}
+    .col-12 {width: 100%;}
+    .banner-large-text{
+        font-size: 37px;
+    }
+    section{
+      padding: 10px;
+      margin: 10px;
+    }
+    .p-5{
+        padding: 20px;
+    }
+    .why-head .lead{
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .why-card .number{
+        font-size: 44px!important;
+        font-style: normal!important;
+        font-weight: 700!important;
+        line-height: 130%!important;
+    }
+    .why-card .mid{    
+        font-size: 26px!important;
+        font-style: normal!important;
+        font-weight: 500!important;
+        line-height: 130%!important;
+        padding-bottom: 26px!important;
+        padding-top: 20px!important;
+    }
+    .why-card .final{
+    font-size: 18px!important;
+    font-style: normal!important;
+    font-weight: 400!important;
+    line-height: 130%!important;
+    }
+    .why-head .lead{
+      font-size: 30px!important;
+      font-style: normal!important;
+      font-weight: 700!important;
+      line-height: 130%!important;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .col-3 {width: 47%;}
+    .col-4 {width: 47%;}
+    .col-6 {width: 75%;}
+    .col-10 {width: 100%;}
+    .col-12 {width: 100%;}
+    .banner-large-text{
+        font-size: 37px;
+    }
+    section{
+        padding: 10px;
+        margin: 10px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+.col-3 {width: 25%;}
+.col-4 {width: 32%;}
+.col-6 {width: 50%;}
+.col-10 {width: 83.33%;}
+.col-12 {width: 100%;}
+}
